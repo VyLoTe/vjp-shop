@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+header {
+    background: linear-gradient(to bottom, rgb(250, 54, 32), rgb(245, 113, 47));
+}
+
+.navbar-wrapper,
+.header-with-search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-wrapper {
+    max-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    width: inherit;
+}
+
+.header-with-search {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    width: inherit;
+    height: 5.3125rem;
+    padding: 1rem 0 .625rem;
+}
+
+.left,
+.right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.left div:not(:first-child),
+.right div:not(:first-child) {
+    border-left: 2px solid #fff;
+    padding-left: 8px;
+}
+
+.logo-shop img,
+.logo-cart img {
+    width: 40px;
+}
+
+.logo-shop,
+.logo-cart {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.logo-shop .shop-name {
+    padding: 0 20px;
+    font-size: 30px;
+    font-family: "Share Tech Mono", monospace;
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-cart {
+    width: 190px;
+    padding: 0 20px;
+    justify-content: center;
+}
+
+.search-bar {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.search-input {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 2px;
+    flex-grow: 1;
+}
+
+.search-input input {
+    height: 40px;
+    width: 100%;
+    padding: 20px 10px;
+    border: none;
+}
+
+.search-input button {
+    height: 40px;
+    width: 40px;
+    margin: 2px;
+    padding: 0;
+    background-color: orangered;
+    border: none;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.recommend {
+    display: flex;
+    padding: 5px 0;
+}
+
+.recommend a {
+    padding-right: 10px;
+}
+
+/* Thiết bị có chiều rộng tối đa 1024px (tablet trở xuống) */
+@media (max-width: 1024px) {
+    .header-with-search {
+        padding: 5px 50px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .search-bar {
+        width: 100%;
+    }
+
+    .logo-cart {
+        justify-content: flex-end;
+        width: 100%;
+        padding: 0;
+    }
+
+    .recommend {
+        flex-wrap: wrap;
+    }
+}
+
+/* Thiết bị có chiều rộng tối đa 768px (mobile) */
+@media (max-width: 768px) {
+    .navbar-wrapper {
+        flex-direction: column;
+        gap: 5px;
+        padding: 5px 20px;
+        
+    }
+
+    .header-with-search {
+        margin-top: 100px;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 20px;
+    }
+
+    .logo-shop {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .logo-shop .shop-name {
+        font-size: 24px;
+        padding: 0 10px;
+    }
+
+    .search-input input {
+        padding: 10px;
+    }
+
+    .recommend a {
+        font-size: 11px;
+        padding-right: 5px;
+    }
+
+    .logo-cart {
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    .left,
+    .right {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .left div:not(:first-child),
+    .right div:not(:first-child) {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    a {
+        font-size: 11px;
+    }
+}
