@@ -83,14 +83,13 @@ li {
     .top {
         display: flex;
         padding: .3125rem;
-        width: 100%;
         justify-content: center;
         max-width: 100%;
     }
 
     .footer-section {
         padding: .3125rem;
-        width: 10.9375rem;
+        width: 11.71875rem;
     }
 }
 
