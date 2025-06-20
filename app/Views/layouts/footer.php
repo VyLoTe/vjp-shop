@@ -75,7 +75,15 @@
                     </div>
                 </div>
             </div>
-            <div class="bottom"></div>
+            <div class="bottom">
+                <div class="left">© 2025 Shopee. Tất cả các quyền được bảo lưu.</div>
+                <div class="right">
+                    <div class="nation-and-region">Quốc gia & khu vực:</div>
+                    <div>Việt Nam</div>
+                    <div>Singapore</div>
+                    <div>Malaysia</div>
+                </div>
+            </div>
         </div>
     </footer>
     </body>
