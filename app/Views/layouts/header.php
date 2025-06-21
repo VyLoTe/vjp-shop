@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="public/css/header.css">
     <link rel="stylesheet" href="public/css/footer.css">
 </head>
-
 <body>
+
     <header>
-        <div class="navbar-wrapper">
+        <button id="menu-btn">Show Menu</button>
+        <div class="navbar-wrapper" id="navbar">
             <div class="left">
                 <div class="download-app"><a href="#">Tải ứng dụng</a></div>
                 <div class="connect"><a href="#">Kết nối</a></div>
@@ -50,3 +51,12 @@
             </div>
         </div>
     </header>
+    <script>
+    const btn = document.getElementById("menu-btn");
+    const navbar = document.getElementById("navbar");
+
+    btn.addEventListener("click", () => {
+      navbar.classList.toggle("show");
+      btn.textContent = navbar.classList.contains("show") ? "Hide Menu" : "Show Menu";
+    });
+    </script>

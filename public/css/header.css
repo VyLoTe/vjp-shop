@@ -7,6 +7,10 @@ body {
     font-family: sans-serif;
 }
 
+#menu-btn {
+    display: none;
+}
+
 a {
     text-decoration: none;
     color: #fff;
@@ -162,6 +166,14 @@ header {
 
 /* Thiết bị có chiều rộng tối đa 768px (mobile) */
 @media (max-width: 768px) {
+    #menu-btn {
+        display: block;
+    }
+
+    .navbar-wrapper .left, .navbar-wrapper .right {
+        display: none;
+    }
+
     .navbar-wrapper {
         flex-direction: column;
     }
