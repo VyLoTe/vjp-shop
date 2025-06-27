@@ -7,7 +7,7 @@ body {
     font-family: sans-serif;
 }
 
-#menu-btn {
+.menu-toggle {
     display: none;
 }
 
@@ -166,16 +166,27 @@ header {
 
 /* Thiết bị có chiều rộng tối đa 768px (mobile) */
 @media (max-width: 768px) {
-    #menu-btn {
-        display: block;
-    }
-
-    .navbar-wrapper .left, .navbar-wrapper .right {
-        display: none;
+    .menu-toggle {
+        display: flex;
+        background: linear-gradient(to bottom, rgb(250, 54, 32), rgb(245, 113, 47));
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+        
+        cursor: pointer;
     }
 
     .navbar-wrapper {
         flex-direction: column;
+        display: none;
+    }
+
+    .navbar-wrapper.active {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 
     .header-with-search {

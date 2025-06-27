@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="public/css/header.css">
     <link rel="stylesheet" href="public/css/footer.css">
 </head>
-<body>
 
+<body>
+    
     <header>
-        <button id="menu-btn">Show Menu</button>
-        <div class="navbar-wrapper" id="navbar">
+        <button id="menu-btn" class="menu-toggle">☰</button>
+        <div class="navbar-wrapper">
             <div class="left">
                 <div class="download-app"><a href="#">Tải ứng dụng</a></div>
                 <div class="connect"><a href="#">Kết nối</a></div>
@@ -51,12 +52,5 @@
             </div>
         </div>
     </header>
-    <script>
-    const btn = document.getElementById("menu-btn");
-    const navbar = document.getElementById("navbar");
-
-    btn.addEventListener("click", () => {
-      navbar.classList.toggle("show");
-      btn.textContent = navbar.classList.contains("show") ? "Hide Menu" : "Show Menu";
-    });
-    </script>
+    <script src="public/js/nav-toggle.js"></script>
+    
