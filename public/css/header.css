@@ -168,13 +168,13 @@ header {
 @media (max-width: 768px) {
     .menu-toggle {
         display: flex;
-        background: linear-gradient(to bottom, rgb(250, 54, 32), rgb(245, 113, 47));
+        background:rgb(255, 61, 39);
         width: 40px;
         height: 40px;
         font-size: 20px;
         align-items: center;
         justify-content: center;
-        
+        border: none;
         cursor: pointer;
     }
 
