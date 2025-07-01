@@ -1,0 +1,14 @@
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%; /* Biến thành hình tròn */
+  background-color: #ffffff9e; /* Màu chấm (có thể đổi) */
+  margin: 0 4px;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+  background-color: #ff5722; /* Màu chấm đang active */
+}
