@@ -7,7 +7,7 @@
 		<div class="container">
 			<div class="d-flex justify-content-center align-items-center" style="height: 270px; overflow: hidden;">
 				<div id="homeCarousel" class="carousel slide w-100 h-100" data-bs-ride="carousel">
-					<!-- 🟣 Chấm tròn indicators -->
+					<!-- Chấm tròn indicators -->
 					<div class="carousel-indicators">
 						<button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 						<button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
