@@ -25,8 +25,8 @@
         </div>
         <div class="header-with-search">
             <div class="logo-shop">
-                <img src="public/images/logo_shop_icon.png" alt="Shop Logo" />
-                <div class="shop-name">VIPshop</div>
+                <img src="public/images/logo_shop_icon.png" alt="Shop Logo"/>
+                <div class="shop-name"><a href="index.php?page=home" style="font-size: 30px; font-family: 'Share Tech Mono', monospace; color: black;">VIPshop</a></div>
             </div>
             <div class="search-bar">
                 <form action="#" class="search-section">

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="public/css/bootstrap.min.css">
+<link rel="stylesheet" href="public/css/bootstrap5/bootstrap.min.css">
 <link rel="stylesheet" href="public/css/home.css">
 <link rel="stylesheet" href="public/css/header.css">
 
@@ -79,4 +79,4 @@
 		</div>
 	</div>
 </div>
-<script src="public/js/bootstrap.bundle.min.js"></script>
+<script src="public/js/bootstrap5/bootstrap.bundle.min.js"></script>
