@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="public/css/header.css">
 
 <div style="margin-left: auto; margin-right: auto; max-width: 1200px;">
-	<div class="banner-section d-flex" style="height: 235px; gap: 5px;">
+	<div class="banner-section d-flex" style="height: 270px; gap: 5px;">
 		<div class="carousel-wrapper" style="flex: 2 1 0; height: 100%;">
 			<div id="homeCarousel" class="carousel slide w-100 h-100" data-bs-ride="carousel" data-bs-interval="500">
 				<div class="carousel-indicators">
@@ -19,10 +19,6 @@
 					<button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="9" aria-label="Slide 10"></button>
 					<button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="10" aria-label="Slide 11"></button>
 					<button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="11" aria-label="Slide 12"></button>
-					<button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="12" aria-label="Slide 13"></button>
-					<button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="13" aria-label="Slide 14"></button>
-					<button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="14" aria-label="Slide 15"></button>
-					<button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="15" aria-label="Slide 16"></button>
 				</div>
 
 				<div class="carousel-inner w-100 h-100">
@@ -33,16 +29,10 @@
 						<img src="public/images/g2.jpg" class="d-block w-100 h-100 img-cover" alt="...">
 					</div>
 					<div class="carousel-item w-100 h-100">
-						<img src="public/images/g3.jpg" class="d-block w-100 h-100 img-cover" alt="...">
+						<img src="public/images/g15.jpg" class="d-block w-100 h-100 img-cover" alt="...">
 					</div>
 					<div class="carousel-item w-100 h-100">
 						<img src="public/images/g4.jpg" class="d-block w-100 h-100 img-cover" alt="...">
-					</div>
-					<div class="carousel-item w-100 h-100">
-						<img src="public/images/g5.jpg" class="d-block w-100 h-100 img-cover" alt="...">
-					</div>
-					<div class="carousel-item w-100 h-100">
-						<img src="public/images/g6.jpg" class="d-block w-100 h-100 img-cover" alt="...">
 					</div>
 					<div class="carousel-item w-100 h-100">
 						<img src="public/images/g7.jpg" class="d-block w-100 h-100 img-cover" alt="...">
@@ -51,13 +41,7 @@
 						<img src="public/images/g8.jpg" class="d-block w-100 h-100 img-cover" alt="...">
 					</div>
 					<div class="carousel-item w-100 h-100">
-						<img src="public/images/g18.jpg" class="d-block w-100 h-100 img-cover" alt="...">
-					</div>
-					<div class="carousel-item w-100 h-100">
 						<img src="public/images/g10.jpg" class="d-block w-100 h-100 img-cover" alt="...">
-					</div>
-					<div class="carousel-item w-100 h-100">
-						<img src="public/images/g11.jpg" class="d-block w-100 h-100 img-cover" alt="...">
 					</div>
 					<div class="carousel-item w-100 h-100">
 						<img src="public/images/g12.jpg" class="d-block w-100 h-100 img-cover" alt="...">
@@ -69,10 +53,10 @@
 						<img src="public/images/g14.jpg" class="d-block w-100 h-100 img-cover" alt="...">
 					</div>
 					<div class="carousel-item w-100 h-100">
-						<img src="public/images/g15.jpg" class="d-block w-100 h-100 img-cover" alt="...">
+						<img src="public/images/g17.jpg" class="d-block w-100 h-100 img-cover" alt="...">
 					</div>
 					<div class="carousel-item w-100 h-100">
-						<img src="public/images/g17.jpg" class="d-block w-100 h-100 img-cover" alt="...">
+						<img src="public/images/g18.jpg" class="d-block w-100 h-100 img-cover" alt="...">
 					</div>
 				</div>
 
@@ -95,3 +79,4 @@
 		</div>
 	</div>
 </div>
+<script src="public/js/bootstrap.bundle.min.js"></script>
