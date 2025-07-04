@@ -136,6 +136,11 @@ header {
     padding-right: 10px;
 }
 
+/* Prevent layout shift when navigating between pages with and without scrollbars */
+html {
+    overflow-y: scroll;
+}
+
 /* Thiết bị có chiều rộng tối đa 1024px (tablet trở xuống) */
 @media (max-width: 1024px) {
     .navbar-wrapper {
