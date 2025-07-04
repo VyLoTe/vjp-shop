@@ -1,7 +1,3 @@
-<link rel="stylesheet" href="public/css/bootstrap5/bootstrap.min.css">
-<link rel="stylesheet" href="public/css/home.css">
-<link rel="stylesheet" href="public/css/header.css">
-
 <div style="margin-left: auto; margin-right: auto; max-width: 1200px;">
 	<div class="banner-section d-flex" style="height: 270px; gap: 5px;">
 		<div class="carousel-wrapper" style="flex: 2 1 0; height: 100%;">

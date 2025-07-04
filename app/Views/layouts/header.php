@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VIP Shop</title>
     <link rel="stylesheet" href="public/css/header.css">
+    <link rel="stylesheet" href="public/css/bootstrap5/bootstrap.min.css">
+    <link rel="stylesheet" href="public/css/home.css">
+    <link rel="stylesheet" href="public/css/header.css">
 </head>
 
 <body>
@@ -25,7 +28,7 @@
         </div>
         <div class="header-with-search">
             <div class="logo-shop">
-                <img src="public/images/logo_shop_icon.png" alt="Shop Logo"/>
+                <img src="public/images/logo_shop_icon.png" alt="Shop Logo" />
                 <div class="shop-name"><a href="index.php?page=home" style="font-size: 30px; font-family: 'Share Tech Mono', monospace; color: black;">VIPshop</a></div>
             </div>
             <div class="search-bar">
